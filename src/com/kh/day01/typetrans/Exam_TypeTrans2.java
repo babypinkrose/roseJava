@@ -1,4 +1,4 @@
-package com.kh.day01.TypeTrans1;
+package com.kh.day01.typetrans;
 
 public class Exam_TypeTrans2 {
 	public static void main(String [] args)

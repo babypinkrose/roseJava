@@ -1,4 +1,4 @@
-package com.kh.day01.Operator;
+package com.kh.day01.operator;
 
 public class Exam_Unary {
 	public static void main(String [] args)
