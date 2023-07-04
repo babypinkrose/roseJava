@@ -4,6 +4,7 @@ import com.kh.day03.array.execise.Exercise_AfterSchool;
 import com.kh.day03.array.execise.Exercise_Array1;
 import com.kh.day03.array.execise.Exercise_For;
 import com.kh.day03.array.execise.Exercise_While;
+import com.kh.day03.array.practice.Practice_Array;
 
 public class Run {
 	public static void main(String [] args)
@@ -14,7 +15,6 @@ public class Run {
 //		exArr.exercise1();
 //		exArr.exercise2();
 //		exArr.arryCopyExercise();
-		
 		
 		Exercise_For exFor = new Exercise_For();
 //		exFor.ForExercise1();
@@ -37,6 +37,8 @@ public class Run {
 //		exAS.lottoExercise();
 		exAS.RPSgame();
 		
+		Practice_Array prArray = new Practice_Array();
+		prArray.practice1();
 		
 	}
 }
