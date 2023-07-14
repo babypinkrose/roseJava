@@ -13,7 +13,7 @@ public class Exam_ContentPane extends JFrame{
 		setTitle("ContentPane과 JFrame");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// 코드 입력 전에는 종료가 아니라 안보이게만 했었던건데
-		// 코드 입력 후에는 실제 종료됨8888888888888888888888888888888888888888888888
+		// 코드 입력 후에는 실제 종료됨
 		
 		Container contentPane = getContentPane();
 		contentPane.setBackground(Color.PINK);
