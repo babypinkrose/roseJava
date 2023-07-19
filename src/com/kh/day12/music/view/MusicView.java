@@ -5,8 +5,6 @@ import java.util.Scanner;
 
 import com.kh.day12.music.model.vo.Music;
 
-
-
 public class MusicView {
 
 	public int musicMenu() {
@@ -29,7 +27,6 @@ public class MusicView {
 	}
 
 	public Music inputMusicInfo() {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.print("곡명 : ");
 		String title = sc.nextLine();

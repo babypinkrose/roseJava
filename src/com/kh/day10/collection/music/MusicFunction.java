@@ -100,9 +100,9 @@ public class MusicFunction {
 	// 곡명으로 음악 정보 수정하기
 	public void setMusic() {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("수정할 곡 입력 : ");
+		System.out.print("수정할 곡 입력 : ");
 		String title = sc.nextLine();
-		System.out.println("수정할 정보 입력(곡명) : ");
+		System.out.print("수정할 정보 입력(곡명) : ");
 		String setTitle = sc.nextLine();
 		System.out.println("수정할 정보 입력(가수명) : ");
 		String setSinger = sc.nextLine();
@@ -110,9 +110,10 @@ public class MusicFunction {
 		for(int i = 0; i < mList.size(); i++) {
 			Music music = mList.get(i);
 			if(music.getTitle().equals(title)) {
-				mList.set(i,  music);
+				mList.set(i, setMusic);
 				System.out.println("[서비스 성공]: 수정 성공!");
 			}
 		}
 	}
+
 }
